@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    /* RESETEAMOS ELEMENTOS PARA EMPEZAR DE CERO*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --White-2: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+
+    background-color: var(--Light-gray);
+    font-family: 'Outfit', sans-serif;  
+    width: 375px;
+    margin: 0 auto;
+    
+   
+
+}
+
+.main-container{
+    background-color: var(--White-2);
+    
+    margin-top: 40px;
+    border-radius: 4%;
+    
+}
+.main-container__qr{
+    padding-top: 20px;
+    border-color: 20px seagreen;
+    
+
+}
+
+.main-container__qr__img{
+    width: 90%;
+    border-radius: 3%;
+    margin-left: 20px;
+       
+}
+.main-container__text{
+    margin-top: 20px;
+}
+.main-container--titulo{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 10px;
+    color: var(--Dark-blue);
+    
+}
+
+.main-container--subtitulo{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-weight: 100;
+    color: var(--Light-gray);
+    margin-bottom: 50px;
+    
+}
+
